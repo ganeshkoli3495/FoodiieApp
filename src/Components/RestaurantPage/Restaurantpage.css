@@ -1,0 +1,104 @@
+.restaurant{
+    background-color: #144845 ;
+    height: 200px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.restaurant_detail{
+    padding: 20px 20px;
+    width: 508px;
+}
+
+.restaurant_name{
+    font-size: 24px;
+    color: var(--white);
+    padding: 0;
+    margin: 0;
+}
+
+.cuisines{
+    color: rgb(218, 218, 218);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.restaurant_rating{
+    justify-content: space-between;
+    width: 300px;
+    color: var(--white);
+    align-items: center;
+}
+
+.restaurant_rating p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.restaurant_rating p:nth-child(1){
+    background-color: rgb(18, 156, 0);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.restaurant_img{
+    width: 30%;
+    object-fit: contain;
+    border-radius: 5px;
+
+}
+
+.menu_item{
+    justify-content: space-between;
+    background-color: #144845;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--white);
+}
+.menu_item > img {
+    width: 300px;
+    object-fit: contain;
+    min-height: 200px;
+}
+p.itemName {
+    font-size: 18px;
+    text-align: start;
+    padding: 20px;
+    font-weight: 500;
+}
+.addbtn {
+    display: flex;
+    margin: 0 10px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.addbtn p{
+    padding: 5px 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.addbtn button{
+    padding: 0px 20px;
+    border: none;
+    background-color: var(--orange);
+    font-size: 14px;
+    color: var(--white);
+    height: 27px;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* .menu_item p:first-child{
+    flex: 1;
+} */

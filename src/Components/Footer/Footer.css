@@ -1,0 +1,8 @@
+.footer {
+    padding:10px;
+    background-color: var(--orange);
+}
+
+.footer .footer-tag{
+    color: var(--white);
+}
