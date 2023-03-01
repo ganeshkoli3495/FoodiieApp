@@ -102,3 +102,31 @@ p.itemName {
 /* .menu_item p:first-child{
     flex: 1;
 } */
+
+@media (max-width:468px) {
+    .restaurant_summary{
+        flex-direction: column;
+}
+
+    .restaurant_img{
+        width: 40%;
+    }
+    .restaurant{
+        height: 244px;
+    }
+    .restaurant_detail{
+        padding: 10px 0px;
+        width: 100%;
+    }
+    .menu_item{
+        flex-direction: column;
+    }
+    .menu_item > img{
+        width: 100%;
+    }
+    .menu-list-items {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+}

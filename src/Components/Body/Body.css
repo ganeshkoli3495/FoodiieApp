@@ -3,7 +3,7 @@
 }
 
 .search_input{
-    width: 30%;
+    width: 54%;
     padding: 11px 15px 10px 20px;
     border: 1px solid var(--orange);
     border-right: 0;
@@ -22,12 +22,13 @@
     flex-direction: column;
 }
 .search-left {
-  width: 900px;
+  width: 100%;
   text-align: center;
 }
 
 .search-right h1{
  color: var(--white);
+ font-size: 22px;
 }
   .search_btn{
      padding: 10px 22px;
@@ -103,4 +104,11 @@
   .info .classForTwo{
     font-size: 12px;
     font-weight: 500;
+  }
+
+
+  @media (max-width:469px) {
+      .cards{
+        justify-content: center;
+      }
   }
