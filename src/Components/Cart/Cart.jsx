@@ -31,12 +31,12 @@ const Cart = () => {
 
         <div className="cart_items">
           {cartItems.map((item) => (
-            <div className="item" key={item.id}>
+            <div className="item" key={item?.card?.info?.id}>
               <div className="item_img">
-                <img src={IMG_CDN_URL + item?.cloudinaryImageId} />
+                <img src={IMG_CDN_URL + item?.card?.info?.imageId} />
               </div>
               <div className="item_content">
-                <h1>{item.name}</h1>
+                <h1>{item?.card?.info?.name}</h1>
                 <p>Quantity: <input type="number" value={item.quantity} onChange={(e) => handleQuantityChange(item.id, parseInt(e.target.value))} /></p>
               </div>
               <div className="remove-item">

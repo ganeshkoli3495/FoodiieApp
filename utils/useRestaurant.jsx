@@ -5,18 +5,19 @@ const useRestaurant = (param) => {
 
 
     const [restaurant, setRestaurant] = useState(null);
+    
 
 
     //get the data (fetch api)
     useEffect(() => {
         getRestaurantsInfo();
-    }, []);
+    }, []); 
 
     const  getRestaurantsInfo = async () => {
         const data = await fetch(RESTAURANT_MENU_URI + param.id);
         const json = await data.json();
-        setRestaurant(json?.data)
-        console.log(json?.data.menu.widgets[0].entities)
+        setRestaurant(json?.data?.cards[0]?.card?.card?.info)
+        
 }
 
 //return the data

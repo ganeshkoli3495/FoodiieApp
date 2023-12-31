@@ -10,6 +10,11 @@
 .nav_menu{
     background-color: var(--white);
     box-shadow: -1px 4px 20px 14px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 .menu > ul{

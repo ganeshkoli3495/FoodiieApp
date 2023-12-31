@@ -1,8 +1,7 @@
 
 // Swiggy url to get Restaurant data
-export const swiggy_api_URL = 
-'https://corsanywhere.herokuapp.com/https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.5236317&lng=73.8411226&page_type=DESKTOP_WEB_LISTING';
-
+export const swiggy_api_URL = 'https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.012056&lng=75.5585985&page_type=DESKTOP_WEB_LISTING';
+//
 
 // Image CDN URL for Restaurant card
 export const IMG_CDN_URL =
@@ -11,4 +10,6 @@ export const IMG_CDN_URL =
   //shimmer ui constants
   export const shimmer_card_unit = 8;
 
-  export const RESTAURANT_MENU_URI = "https://corsanywhere.herokuapp.com/https://www.swiggy.com/dapi/menu/v4/full?lat=18.969539&lng=72.819329&menuId=";
+  export const RESTAURANT_MENU_URI = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=21.012056&lng=75.5585985&restaurantId=";
+
+  // =42581&catalog_qa=undefined&submitAction=ENTER

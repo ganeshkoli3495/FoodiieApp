@@ -25,7 +25,7 @@
 
 .restaurant_rating{
     justify-content: space-between;
-    width: 300px;
+    width: 100%;
     color: var(--white);
     align-items: center;
 }
